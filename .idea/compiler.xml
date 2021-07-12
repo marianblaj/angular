@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="course-service" />
+        <module name="fasttrackit-commons" />
+        <module name="student-service" />
+        <module name="student-api-client" />
+        <module name="course-api-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="course-api-client" target="15" />
+      <module name="course-app" target="15" />
+      <module name="course-service" target="11" />
+      <module name="fasttrackit-commons" target="15" />
+      <module name="invoice-api-client" target="15" />
+      <module name="invoice-app" target="15" />
+      <module name="invoice-payment-app-commons" target="15" />
+      <module name="invoice-service" target="15" />
+      <module name="payment-api-client" target="15" />
+      <module name="payment-app" target="15" />
+      <module name="payment-service" target="15" />
+      <module name="student-api-client" target="15" />
+      <module name="student-app" target="15" />
+      <module name="student-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="course-service" options="-parameters" />
+      <module name="invoice-service" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="student-service" options="-parameters" />
+    </option>
+  </component>
+</project>

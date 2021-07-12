@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../homework/payment-app/pom.xml" />
+        <option value="$PROJECT_DIR$/fullstack-curs13-course-app/pom.xml" />
+        <option value="$PROJECT_DIR$/fullstack-curs13-student-app/pom.xml" />
+        <option value="$PROJECT_DIR$/fullstack-curs13-fasttrackit-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/../../homework/invoice-app/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../homework/invoice-app/invoice-api-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../../homework/invoice-app/invoice-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../homework/payment-app/payment-api-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../../homework/payment-app/payment-service/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" default="true" project-jdk-name="16" project-jdk-type="JavaSDK" />
+</project>
